@@ -1,0 +1,12 @@
+body{
+    background-color: lightcoral;
+
+}
+.cuerpo{
+    margin: 35px 50px 50px 50px;
+    width: 95%;
+    height: 758px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
