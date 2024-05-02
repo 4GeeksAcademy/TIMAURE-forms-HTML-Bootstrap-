@@ -4,8 +4,11 @@ body{
 
 }
 .titulo{
-margin-left: 10px;
+
 border-bottom: solid lightgrey 1px;
+}
+h1{
+    margin-left: 10px;
 }
 .row{
     margin-left: 5px !important;
@@ -14,18 +17,16 @@ border-bottom: solid lightgrey 1px;
     font-size: 20px;
     
 }
-#validation input::placeholder {
-    color: darkred; 
-    
+.alert{
+    margin-top: 10px;
+        padding-left: 15px;
+        height: 50px;
+        padding-top: 5px !important;
 }
-
-    
-
-
 .cuerpo{
     margin: 35px 50px 50px 50px;
     width: 90%;
-    height: 590px;
+    height: 630px;
     background-color: white;
     display: flex;
     flex-direction: column;
